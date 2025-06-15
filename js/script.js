@@ -28,7 +28,7 @@ const url = 'https://api.zeno.fm/mounts/metadata/subscribe/skk0a2d6sd0uv';
 const API_KEY = "18fe07917957c289983464588aabddfb";
 
 // DEFAULT COVER
-const DEFAULT_COVER_ART = 'https://thumbs2.imgbox.com/87/f6/vREXAWbV_t.png';
+const DEFAULT_COVER_ART = 'https://i.imgur.com/cbktQ2G.png';
 
 // Variable to control history display: true = display / false = hides
 let showHistory = true; 
