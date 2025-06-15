@@ -1,13 +1,13 @@
 {
-  "name": "mbah nunung Online",
-  "short_name": "Mbah Nunung Radio",
-  "start_url": "/live.html",
+  "name": "Suara Banyuwangi",
+  "short_name": "Suara Banyuwangi",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://mbahnunungonline.net/img/cover.png",
+      "src": "https://cdn4.mbahnunungonline.net/img/sbradio.png",
       "sizes": "192x192",
       "type": "image/png"
     }
