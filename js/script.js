@@ -1,9 +1,19 @@
+/*
+The MIT License (MIT) 
+PARAN JARE RIKO
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
 
-const RADIO_NAME = 'Webradio';
+const RADIO_NAME = 'Suara Banyuwangi FM';
 
 // Change Stream URL Here, 
-const URL_STREAMING = 'https://stream.zeno.fm/n4gzbe9ufzzuv';
+const URL_STREAMING = 'https://stream.zeno.fm/skk0a2d6sd0uv';
 
 // You can find the mount point in the Broadcast Settings.
 // To generate the Zeno Radio API link from the mount point,
@@ -12,13 +22,13 @@ const URL_STREAMING = 'https://stream.zeno.fm/n4gzbe9ufzzuv';
 // the API link will be 'https://api.zeno.fm/mounts/metadata/subscribe/yn65fsaurfhvv'.
 
 // Api URL
-const url = 'https://api.zeno.fm/mounts/metadata/subscribe/n4gzbe9ufzzuv';
+const url = 'https://api.zeno.fm/mounts/metadata/subscribe/skk0a2d6sd0uv';
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
 const API_KEY = "18fe07917957c289983464588aabddfb";
 
 // DEFAULT COVER
-const DEFAULT_COVER_ART = 'img/noCover.png';
+const DEFAULT_COVER_ART = 'https://i.imgur.com/rIVgEGi.png';
 
 // Variable to control history display: true = display / false = hides
 let showHistory = true; 
