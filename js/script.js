@@ -87,7 +87,7 @@ class Page {
         // Function to update the cover
         this.refreshCover = function (song = '', artist) {
             // Default cover art
-            var urlCoverArt = 'img/cover.png';
+            var urlCoverArt = 'https://cdn4.mbahnunungonline.net/img/NoCover.png';
 
             // Creation of the script tag to make the JSONP request to the Deezer API
             const script = document.createElement('script');
@@ -261,19 +261,19 @@ function mute() {
 
 // Function to handle event wiring
 function connectToEventSource(url) {
-    // Criar uma nova instância de EventSource com a URL fornecida
+    // Create a new EventSource instance with the provided URL
     const eventSource = new EventSource(url);
 
     // Add a listener for the 'message' event
     eventSource.addEventListener('message', function(event) {
-        // Chamar a função para tratar os dados recebidos, passando a URL também
+        // Call the function to process the received data, passing the URL as well
         processData(event.data, url);
     });
 
     // Add a listener for the 'error' event
     eventSource.addEventListener('error', function(event) {
         console.error('Erro na conexão de eventos:', event);
-        // Tentar reconectar após um intervalo de tempo
+        // Try to reconnect after a time interval
         setTimeout(function() {
             connectToEventSource(url);
         }, 1000);
@@ -393,12 +393,12 @@ function getStreamingData(data) {
 
     var page = new Page();
 
-    // Formatar caracteres para UTF-8
+    // Format characters to UTF-8
     let song = jsonData.currentSong.replace(/&apos;/g, '\'').replace(/&amp;/g, '&');
     let artist = jsonData.currentArtist.replace(/&apos;/g, '\'').replace(/&amp;/g, '&');
 
-    // Mudar o título
-    document.title = song + ' - ' + artist + ' | ' + RADIO_NAME;
+    // Change title
+    document.title = artist + ' - ' + song + ' | ' + RADIO_NAME;
 
     page.refreshCover(song, artist);
     page.refreshCurrentSong(song, artist);
@@ -406,13 +406,13 @@ function getStreamingData(data) {
 
     if (showHistory) {
 
-        // Verificar se a música é diferente da última atualizada
+        // Check if the music is different from the last updated one
         if (musicHistory.length === 0 || (musicHistory[0].song !== song)) {
-            // Atualizar o histórico com a nova música
+            // Update history with new song
             updateMusicHistory(artist, song);
         }
 
-        // Atualizar a interface do histórico
+        // Update the history interface
         updateHistoryUI();
 
     }
@@ -427,20 +427,20 @@ function updateHistoryUI() {
     }
 }
 
-// Variável global para armazenar o histórico das duas últimas músicas
+// Global variable to store the history of the last two songs
 var musicHistory = [];
 
-// Função para atualizar o histórico das duas últimas músicas
+// Function to update the history of the last two songs
 function updateMusicHistory(artist, song) {
-    // Adicionar a nova música no início do histórico
+    // Add new song to beginning of history
     musicHistory.unshift({ artist: artist, song: song });
 
-    // Manter apenas as duas últimas músicas no histórico
+    // Keep only the last two songs in the history
     if (musicHistory.length > 4) {
-        musicHistory.pop(); // Remove a música mais antiga do histórico
+        musicHistory.pop(); // Remove oldest song from history
     }
 
-    // Chamar a função para exibir o histórico atualizado
+    // Call the function to display the updated history
     displayHistory();
 }
 
@@ -450,20 +450,20 @@ function displayHistory() {
     var $songName = document.querySelectorAll('#historicSong article .music-info .song');
     var $artistName = document.querySelectorAll('#historicSong article .music-info .artist');
 
-    // Exibir as duas últimas músicas no histórico, começando do índice 1 para excluir a música atual
+    // Display the last two songs in the history, starting from index 1 to delete the current song
     for (var i = 1; i < musicHistory.length && i < 3; i++) {
         $songName[i - 1].innerHTML = musicHistory[i].song;
         $artistName[i - 1].innerHTML = musicHistory[i].artist;
 
-        // Chamar a função para buscar a capa da música na API do Deezer
+        // Call the function to fetch the song cover in the Deezer API
         refreshCoverForHistory(musicHistory[i].song, musicHistory[i].artist, i - 1);
 
-        // Adicionar classe para animação
+        // Add class for animation
         $historicDiv[i - 1].classList.add('animated');
         $historicDiv[i - 1].classList.add('slideInRight');
     }
 
-    // Remover classes de animação após 2 segundos
+    // Remove animation classes after 2 seconds
     setTimeout(function () {
         for (var j = 0; j < 2; j++) {
             $historicDiv[j].classList.remove('animated');
