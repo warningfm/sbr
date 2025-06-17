@@ -22,7 +22,7 @@ const url = 'https://api.zeno.fm/mounts/metadata/subscribe/skk0a2d6sd0uv';
 const API_KEY = "18fe07917957c289983464588aabddfb";
 
 // Change DEFAULT COVER
-const DEFAULT_COVER_ART = 'https://cdn4.mbahnunungonline.net/img/cbktQ2G.png';
+const DEFAULT_COVER_ART = 'https://live.staticflickr.com/65535/53836829340_417d2f31ca_z.jpg';
 
 // Variable to control history display: true = display / false = hides
 let showHistory = true; 
@@ -92,7 +92,7 @@ function Page() {
         const JELAJAHDESA = 'https://thumbs2.imgbox.com/7e/dc/vOGdajpd_t.jpg';
         const WISATABUDAYA = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj76_ShbSLBp_jr_Og-mX5b-010-7qIIEPM3ZZeN84zyldmyMX2NS-yLfMPZLa46N7tBFwX8EKlwbUe-9wqU6U_0FO2jV54YFdV0AEvhW0r8jAa5YAE-5TCHgS-uB2HUVHHj0MN9P8xhg5jHAFY-3tMvD_u1BvHdUScYgev4ZcBSCrepzs_75lcKn4dAOdN/s1600/G8Qnr1y.jpg';
         const SHOLAWAT = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIpqY48J4bs8uxDW02DXU_87iAkbYboTn0pxJQ5p0wyoQKt4YYr7BnqczK2UhAcbHkeUyM2m-5IHhUD_jTvWts-7HPMgRU1s4ZJsstS-Kq74NNqHRgsdxkrUoEGhttVFPkCjjR_O766XT_r1WaC2kcUgwkAP9zWSXLzvocqlz-0Y8NU3ViCiC-T9Jfb5bz/s1600/Wf3SDEt.png';
-        const Radio_Suara_Banyuwangi = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlMCfqlG92T8ovADz2Pbvghrzc5h-_X5ytmk_ki8ohnirCP-OMMxZDgS8n6rhpCnsFQr6jvEyP1bMD044VoOaGtAsvmbglpHZLBcs0YLPiSzljTlGtruPFZthyphenhyphenQnj5INGdq4pBYju-z5iSr69X2xV9mRM5FtLVfJkAZblMiPWuOgForcydbGzxU9XA3do/s1600/cbktQ2G.png';
+        const Suara_Banyuwangi = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlMCfqlG92T8ovADz2Pbvghrzc5h-_X5ytmk_ki8ohnirCP-OMMxZDgS8n6rhpCnsFQr6jvEyP1bMD044VoOaGtAsvmbglpHZLBcs0YLPiSzljTlGtruPFZthyphenhyphenQnj5INGdq4pBYju-z5iSr69X2xV9mRM5FtLVfJkAZblMiPWuOgForcydbGzxU9XA3do/s1600/cbktQ2G.png';
         const AlffyRev  = 'https://i.scdn.co/image/ab67616d0000b273d0572746e75788f3a073899b';
         const Ajeng = 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e5/47/cf/e547cfe3-f707-7175-9123-b640435f6a8c/cover.jpg/1200x1200bb.jpg';
         const Agnes_Monica = 'https://i.scdn.co/image/ab6761610000e5eb09160e5ffdc256e65713a8a9';
@@ -139,7 +139,7 @@ function Page() {
             else if (artist == 'JELAJAH DESA') {var urlCoverArt = JELAJAHDESA;}
             else if (artist == 'WISATA BUDAYA') {var urlCoverArt = WISATABUDAYA;}
             else if (artist == 'SHOLAWAT THIBBIL QULUB') {var urlCoverArt = SHOLAWAT;}
-            else if (artist == 'Radio Suara Banyuwangi') {var urlCoverArt = Radio_Suara_Banyuwangi;}
+            else if (artist == 'Suara Banyuwangi') {var urlCoverArt = Suara_Banyuwangi;}
             else if (artist == 'Alffy Rev') {var urlCoverArt = AlffyRev;}
             else if (artist == 'Ajeng') {var urlCoverArt = Ajeng;}
             else if (artist == 'Agnes Monica') {var urlCoverArt = Agnes_Monica;}
