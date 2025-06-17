@@ -1,5 +1,5 @@
 // Sets the cache name
-const CACHE_NAME = 'web-radio-v1';
+const CACHE_NAME = 'sbfm-radio-v1';
 
 // List of files to be cached
 const urlsToCache = [
