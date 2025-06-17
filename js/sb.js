@@ -168,7 +168,7 @@ function Page() {
             else if (artist == 'Vita Alvia') {var urlCoverArt = Vita;} 
             else if (artist == 'Melinda Varera') {var urlCoverArt = Melinda_Varera;} 
             else if (artist == 'Furkan Sert') {var urlCoverArt = Furkan_Sert;} 
-            else if (artist == 'IKLAN') {var urlCoverArt = IKLAN;}
+            else if (artist == 'IKLAN') {var urlCoverArt = IKLAN;} 
         // Default cover art
         else {var urlCoverArt = DEFAULT_COVER_ART;}
         
