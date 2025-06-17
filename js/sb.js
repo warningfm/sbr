@@ -106,7 +106,7 @@ function Page() {
         const Rendra_Prasetyo = 'https://thumbs2.imgbox.com/5e/89/XpX6dsfe_t.jpg';
         const EghaLatoya  = 'https://i1.sndcdn.com/artworks-000145717002-8rm80q-t500x500.jpg';
         const GamelAwan = 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/99/b5/ef/99b5ef28-8196-0307-dd64-d3defa86eb50/cover.jpg/1200x1200bb.png';
-        const Adistya = 'https://i.scdn.co/image/ab67616d0000b273cac7c5e2d5bf5e61ebcbfae1';
+        const Cassandra = 'https://www.trinityproduction.com/storage/uploads/2022/02/10/4CB237BD-029B-4D17-B3C6-15D84309390F_uid_6204d5d629694.png';
         const DemyYoker = 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/6d/ba/c66dba5b-2972-3f16-ba13-f21eb6705287/cover.jpg/1200x1200bb.jpg';
         const Rozy = 'https://images2.imgbox.com/64/0e/V0L2UmSW_o.jpg';
         const Reny = 'https://cdns-images.dzcdn.net/images/cover/c4618c2ceba8781cb55443690a11c07d/1900x1900-000000-80-0-0.jpg';
@@ -151,7 +151,7 @@ function Page() {
             else if (artist == 'Rendra Prasetyo') {var urlCoverArt = Rendra_Prasetyo;}
             else if (artist == 'Egha De Latoya') {var urlCoverArt = EghaLatoya;}
             else if (artist == 'Gamel Awan') {var urlCoverArt = GamelAwan;}
-            else if (artist == 'Adistya Mayasari') {var urlCoverArt = Adistya;}
+            else if (artist == 'Cassandra') {var urlCoverArt = Cassandra;}
             else if (artist == 'Demy Yoker') {var urlCoverArt = DemyYoker;}
             else if (artist == 'Rozy Abdillah') {var urlCoverArt = Rozy;} 
             else if (artist == 'Reny Farida') {var urlCoverArt = Reny;} 
