@@ -272,7 +272,7 @@ input[type=range]::-ms-thumb {
 
 .historic h2 {
     color: #0090ff;
-    border-bottom: 2px solid #ef7f1a;
+    border-bottom: 2px solid #fefefe;
     font-size: 18px;
     font-weight: bold;
     text-transform: Letter case;
@@ -298,7 +298,7 @@ input[type=range]::-ms-thumb {
     border-radius: 10px;
     background: url('https://cdn4.mbahnunungonline.net/img/sbradio.png') no-repeat;
     background-size: cover;
-    border: 1px solid #ef7f1a;
+    border: 1px solid #ff0000;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-image 1s;
 }
