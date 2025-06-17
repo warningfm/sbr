@@ -120,8 +120,9 @@ function Page() {
         const OmpRock = 'https://i1.sndcdn.com/artworks-000069866100-96taaq-t500x500.jpg';
         const Virgia_Hassan = 'https://i.ytimg.com/vi/g3A7Cp2yAro/maxresdefault.jpg';
         const Vita = 'https://live.staticflickr.com/65535/53458574431_71955797d8_z.jpg';
-        const Melinda_Varera = 'https://i.scdn.co/image/ab67616d0000b2739e8575dbb9c92a4f3984a811'; 
-        const Furkan_Sert = 'https://i.scdn.co/image/ab67616d0000b27301f62d04407be638080c7293'; 
+        const Melinda_Varera = 'https://i.scdn.co/image/ab67616d0000b2739e8575dbb9c92a4f3984a811';
+        const Furkan_Sert = 'https://i.scdn.co/image/ab67616d0000b27301f62d04407be638080c7293';
+        const IKLAN = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3kvdmC7dAKO4NEBIHYqzIVCpCUjPipqTOwGJ-PZceBRYHQIhRI61imk6t2QXqJBBRsI4MYazWX1ecCGLery0jUwK9fkPpv7YQHKvE1W4OzRqHpal3VMsAvwl1pwYx28_-wP1KS9nq2EaR2E2qv3hw0k_mbfo9FagXNwhYNaOmZGRreSQwn2XsZ4FCyiw_/s1600/1200x1200iklan.jpg';
         
         if (artist == 'BEN ISTIQOMAH') {var urlCoverArt = BEN_ISTIQOMAH;}
             else if (artist == 'BluëKUtHUQ') {var urlCoverArt = BluëKUtHUQ;}
@@ -167,6 +168,7 @@ function Page() {
             else if (artist == 'Vita Alvia') {var urlCoverArt = Vita;} 
             else if (artist == 'Melinda Varera') {var urlCoverArt = Melinda_Varera;} 
             else if (artist == 'Furkan Sert') {var urlCoverArt = Furkan_Sert;} 
+            else if (artist == 'IKLAN') {var urlCoverArt = IKLAN;}
         // Default cover art
         else {var urlCoverArt = DEFAULT_COVER_ART;}
         
