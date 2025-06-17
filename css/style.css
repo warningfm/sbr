@@ -60,7 +60,7 @@ body {
     margin: auto;
     background: url('https://cdn4.mbahnunungonline.net/img/sbradio.png') no-repeat;
     background-size: cover;
-    border: 1px solid #ef7f1a;
+    border: 1px solid #ff0000;
     box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.4);
     transition: background-image 1s;
     border-radius: 10px;
