@@ -103,11 +103,11 @@ function Page() {
         const Andmesh = 'https://i1.sndcdn.com/artworks-000644192974-fr8aja-t500x500.jpg';
         const Dewa_19_Ft_Virzha = 'https://i.scdn.co/image/ab67616d0000b2734383e26d01a2dd18452b7b37';
         const Dewa_19_Ft_Ello = 'https://i.scdn.co/image/ab67616d0000b2730b591f8644a5a5106169a30a';
-        const Rendra_Prasetyo = 'https://thumbs2.imgbox.com/5e/89/XpX6dsfe_t.jpg';
+        const Rendra_Prasetyo = 'https://live.staticflickr.com/65535/54598037595_37307b419f.jpg';
         const EghaLatoya  = 'https://i1.sndcdn.com/artworks-000145717002-8rm80q-t500x500.jpg';
         const GamelAwan = 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/99/b5/ef/99b5ef28-8196-0307-dd64-d3defa86eb50/cover.jpg/1200x1200bb.png';
         const Cassandra = 'https://www.trinityproduction.com/storage/uploads/2022/02/10/4CB237BD-029B-4D17-B3C6-15D84309390F_uid_6204d5d629694.png';
-        const DemyYoker = 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/6d/ba/c66dba5b-2972-3f16-ba13-f21eb6705287/cover.jpg/1200x1200bb.jpg';
+        const Dhika_Resta = 'https://live.staticflickr.com/65535/54597932789_6b7fe2da60.jpg';
         const Rozy = 'https://images2.imgbox.com/64/0e/V0L2UmSW_o.jpg';
         const Reny = 'https://cdns-images.dzcdn.net/images/cover/c4618c2ceba8781cb55443690a11c07d/1900x1900-000000-80-0-0.jpg';
         const Kurnia_Dewi = 'https://thumbs2.imgbox.com/25/17/7EGrbSWQ_t.jpg';
@@ -153,7 +153,7 @@ function Page() {
             else if (artist == 'Egha De Latoya') {var urlCoverArt = EghaLatoya;}
             else if (artist == 'Gamel Awan') {var urlCoverArt = GamelAwan;}
             else if (artist == 'Cassandra') {var urlCoverArt = Cassandra;}
-            else if (artist == 'Demy Yoker') {var urlCoverArt = DemyYoker;}
+            else if (artist == 'Dhika Resta') {var urlCoverArt = Dhika_Resta;}
             else if (artist == 'Rozy Abdillah') {var urlCoverArt = Rozy;} 
             else if (artist == 'Reny Farida') {var urlCoverArt = Reny;} 
             else if (artist == 'Kurnia Dewi') {var urlCoverArt = Kurnia_Dewi;} 
