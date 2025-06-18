@@ -99,7 +99,7 @@ function Page() {
         const Anji = 'https://upload.wikimedia.org/wikipedia/commons/f/f6/ANJI.jpg';
         const SOLUSI_SEHAT = 'https://images2.imgbox.com/f8/ca/GwuLQxLZ_o.jpg';
         const Ari_Lasso = 'https://i.scdn.co/image/ab6761610000e5eb4e1ed336c3ff93a95fa44e14';
-        const Krismi_Rolas = 'https://thumbs2.imgbox.com/2b/5c/X4oKMJh2_t.png';
+        const Muhamad_Handoyo = 'https://live.staticflickr.com/65535/54597757641_3359192a02.jpg';
         const Andmesh = 'https://i1.sndcdn.com/artworks-000644192974-fr8aja-t500x500.jpg';
         const Dewa_19_Ft_Virzha = 'https://i.scdn.co/image/ab67616d0000b2734383e26d01a2dd18452b7b37';
         const Dewa_19_Ft_Ello = 'https://i.scdn.co/image/ab67616d0000b2730b591f8644a5a5106169a30a';
@@ -146,7 +146,7 @@ function Page() {
             else if (artist == 'Anji') {var urlCoverArt = Anji;}
             else if (artist == 'SOLUSI SEHAT') {var urlCoverArt = SOLUSI_SEHAT;}
             else if (artist == 'Ari Lasso') {var urlCoverArt = Ari_Lasso;}
-            else if (artist == 'Krismi Rolas') {var urlCoverArt = Krismi_Rolas;}
+            else if (artist == 'Muhamad Handoyo') {var urlCoverArt = Muhamad_Handoyo;}
             else if (artist == 'Andmesh') {var urlCoverArt = Andmesh;}
             else if (artist == 'Dewa 19 Ft Virzha') {var urlCoverArt = Dewa_19_Ft_Virzha;}
             else if (artist == 'Rendra Prasetyo') {var urlCoverArt = Rendra_Prasetyo;}
