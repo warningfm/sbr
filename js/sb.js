@@ -121,7 +121,7 @@ function Page() {
         const Virgia_Hassan = 'https://i.ytimg.com/vi/g3A7Cp2yAro/maxresdefault.jpg';
         const Vita = 'https://live.staticflickr.com/65535/53458574431_71955797d8_z.jpg';
         const Melinda_Varera = 'https://i.scdn.co/image/ab67616d0000b2739e8575dbb9c92a4f3984a811';
-        const UCAPAN_OPENING = 'https://raw.githubusercontent.com/warningfm/v3/cast/img/xPdfeAm.png';
+        const UCAPAN_OPENING = 'https://imgx.sonora.id/crop/0x0:0x0/x/photo/2023/01/09/ucapan-grand-openingjpg-20230109044733.jpg';
         const IKLAN = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3kvdmC7dAKO4NEBIHYqzIVCpCUjPipqTOwGJ-PZceBRYHQIhRI61imk6t2QXqJBBRsI4MYazWX1ecCGLery0jUwK9fkPpv7YQHKvE1W4OzRqHpal3VMsAvwl1pwYx28_-wP1KS9nq2EaR2E2qv3hw0k_mbfo9FagXNwhYNaOmZGRreSQwn2XsZ4FCyiw_/s1600/1200x1200iklan.jpg';
         
         if (artist == 'BEN ISTIQOMAH') {var urlCoverArt = BEN_ISTIQOMAH;}
