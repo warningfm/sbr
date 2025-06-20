@@ -81,7 +81,7 @@ function Page() {
         const BluëKUtHUQ = 'https://i.scdn.co/image/ab67616d0000b2735e77f9aae722825ea3cc7238';
         const TS = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoYOoThYoQy_1IHIOkOWhSv7ZumvhWQVgCCUAa1PtItmRqi7LpFLBOlRVnmMJvjw2_m91utqlbmj_XRJzqxROWHC5fJqk664UghWdsbX_sqI4vMFue3Ii68m4cfh5kQNAWFM6v4YGjSyP1TdH1SySeBmMx9Ewaeyyu5qhTcon4wKP0VFY9KxHvJrEScFED/s1600/P8KFcGD.png';
         const Erina = 'https://i.ytimg.com/vi/1NTsu5MhbpA/sddefault.jpg';
-        const Dengarkami = 'https://warningfm.github.io/v3/img/yx3lPLHp_t.jpg';
+        const SEKAR_KIJANG = 'https://cdn-images.dzcdn.net/images/cover/de30690a397431bbcdbde02e0b63371f/500x500-000000-80-0-0.jpg';
         const JINGLE = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwRqAS90NVntGw3KRvRy8ZfMmOWAUH6r7-0fDph8OXZE5aOEE8VHnvNP4DqpPNTOaQ6eqJJUpyW-QG9092-UjOCnbw4hzHXkZ4q4_68WeZHMqWHcUW6qV42XVK-EJhiqNSLXwveYZnUGWuSs6QOy0bz2omDTyrE-yUay1TbClQS5a91JjyKskyNtWT0bRo/s1600/ed6F7ZU.jpg';
         const TANDAWAKTUSHOLATDHUHUR = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2F9RU0k7w_EWKjhsDP-YJAfCnFxFzW21G8mqmiSDSf-J5ocGv4yOjb5nuGFhlJW9iBAPWgjEn4jhr-bt-CK84RGFtJf6JneNMZgpbYV1Mi-mwbr7rzeu77mm-MqL7rbk_8O5sduTnGPdMj000VGVCbGc_gR1IgAr6-FrDcXpg-vun-lebVxtLEnuGAwUz/s1600/m2iqnIm.jpg';
         const ASHAR = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAkb2u1BXZyewCrcabezpQsAP5OVlOJBW1bSR2VD3Ct497ubsePRslOC74TCSna3aKQoPo8j_oPsX0UZpC1Qau0-pztX0uH66cuxA2F017wwnoFXYauEwaJPiqLEjtepu4PH0xxwVVIXExDIRCw7yWREoGPxQ5pN-gLftIwtSJD7fcUOgeuGMtGAyR-RYu/s1600/uJr1nZIi_t.jpg';
@@ -128,7 +128,7 @@ function Page() {
             else if (artist == 'BluëKUtHUQ') {var urlCoverArt = BluëKUtHUQ;}
             else if (artist == 'TS') {var urlCoverArt = TS;}
             else if (artist == 'Erina') {var urlCoverArt = Erina;}
-            else if (artist == 'DENGAR KAMI') {var urlCoverArt = Dengarkami;}
+            else if (artist == 'SEKAR KIJANG') {var urlCoverArt = SEKAR_KIJANG;}
             else if (artist == 'JINGLE') {var urlCoverArt = JINGLE;}
             else if (artist == 'TANDA WAKTU SHOLAT DHUHUR') {var urlCoverArt = TANDAWAKTUSHOLATDHUHUR;}
             else if (artist == 'TANDA WAKTU SHOLAT ASHAR') {var urlCoverArt = ASHAR;}
