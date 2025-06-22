@@ -70,7 +70,7 @@ body {
 .watermark {
     width: 89px;
     height: 35px;
-    background: url(https://i.imgur.com/Lzgfwg7.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/warningfm/sbr/main/img/Lzgfwg7.png) no-repeat;
     background-size: auto 35px;
     opacity: 0.5;
     position: relative;
