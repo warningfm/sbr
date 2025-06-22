@@ -122,7 +122,7 @@ function Page() {
         const Vita = 'https://live.staticflickr.com/65535/53458574431_71955797d8_z.jpg';
         const Melinda_Varera = 'https://i.scdn.co/image/ab67616d0000b2739e8575dbb9c92a4f3984a811';
         const UCAPAN_OPENING = 'https://imgx.sonora.id/crop/0x0:0x0/x/photo/2023/01/09/ucapan-grand-openingjpg-20230109044733.jpg';
-        const IKLAN = 'https://thumbs2.imgbox.com/d6/e7/D99HrilN_t.jpg';
+        const IKLAN = 'https://warningfm.github.io/v3/img/2uhHSB5.png';
         
         if (artist == 'BEN ISTIQOMAH') {var urlCoverArt = BEN_ISTIQOMAH;}
             else if (artist == 'BluëKUtHUQ') {var urlCoverArt = BluëKUtHUQ;}
