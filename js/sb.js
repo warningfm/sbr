@@ -122,7 +122,7 @@ function Page() {
         const Vita = 'https://live.staticflickr.com/65535/53458574431_71955797d8_z.jpg';
         const Melinda_Varera = 'https://i.scdn.co/image/ab67616d0000b2739e8575dbb9c92a4f3984a811';
         const UCAPAN_OPENING = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzGVmq3IyMXLjvzFJiwn4e7QM0KO2kxS9a6k82wpwA5HOIBhuKYbfWm81jYOYvSqSZlRX3kPG_ZeVD-059rWmKdDdL1ITdvCv-iwtANHFyPinLecN_RCrBTGQK3mjCYjEGdj0gBNnDMM6QZ2DcnkVuTNEA_Vm2VEOu21HHyPrvFIb2qKnv4hqNDEufPfw/s1600/openingRSB.jpg';
-        const IKLAN = 'https://warningfm.github.io/v3/img/2uhHSB5.png';
+        const IKLAN = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbk__nyxv_204MHCwkda_oaNO_zbnuo9z_4zjVQB_G3JGI6CO5b5e-WGNPLevN4LBLL_aB8798Dven-sdT1XvqCsgVvxsvx_EcmQnltTbGr3QGB1dk0p06Iow26p0ahVfwKSMzgut4vAXyUDgRzHvU0UWynQfeOrDamYh4-AGbCXBrX80o4gnKvzgQnXM/s1600/2uhHSB5.png';
         
         if (artist == 'BEN ISTIQOMAH') {var urlCoverArt = BEN_ISTIQOMAH;}
             else if (artist == 'BluëKUtHUQ') {var urlCoverArt = BluëKUtHUQ;}
