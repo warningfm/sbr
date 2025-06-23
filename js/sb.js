@@ -131,7 +131,7 @@ function Page() {
             else if (artist == 'Erina') {var urlCoverArt = Erina;}
             else if (artist == 'SEKAR KIJANG') {var urlCoverArt = SEKAR_KIJANG;}
             else if (artist == 'JINGLE') {var urlCoverArt = JINGLE;}
-            else if (artistRadio == 'JINGLE SETELAH IKLAN') {var urlCoverArt = Jingle_Setelah_iklan;} 
+            else if (artist == 'JINGLE SETELAH IKLAN') {var urlCoverArt = Jingle_Setelah_iklan;} 
             else if (artist == 'ADZAN DHUHUR') {var urlCoverArt = TANDAWAKTUSHOLATDHUHUR;}
             else if (artist == 'ADZAN ASHAR') {var urlCoverArt = ASHAR;}
             else if (artist == 'ADZAN MAGHRIB') {var urlCoverArt = ADZANMAGHRIB;}
