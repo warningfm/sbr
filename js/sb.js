@@ -148,7 +148,7 @@ function Page() {
             else if (artist == 'Anji') {var urlCoverArt = Anji;}
             else if (artist == 'SOLUSI SEHAT') {var urlCoverArt = SOLUSI_SEHAT;}
             else if (artist == 'Ari Lasso') {var urlCoverArt = Ari_Lasso;}
-            else if (artist == 'Muhamad Handoyo') {var urlCoverArt = Muhamad_Handoyo;}
+            else if (artist == 'MUHAMAD HANDOYO') {var urlCoverArt = Muhamad_Handoyo;}
             else if (artist == 'Andmesh') {var urlCoverArt = Andmesh;}
             else if (artist == 'Dewa 19 Ft Virzha') {var urlCoverArt = Dewa_19_Ft_Virzha;}
             else if (artist == 'RENDRA PRASETYO') {var urlCoverArt = Rendra_Prasetyo;}
