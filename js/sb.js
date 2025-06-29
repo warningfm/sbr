@@ -98,7 +98,7 @@ function Page() {
         const Ajeng = 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e5/47/cf/e547cfe3-f707-7175-9123-b640435f6a8c/cover.jpg/1200x1200bb.jpg';
         const Agnes_Monica = 'https://i.scdn.co/image/ab6761610000e5eb09160e5ffdc256e65713a8a9';
         const Anji = 'https://upload.wikimedia.org/wikipedia/commons/f/f6/ANJI.jpg';
-        const SOLUSI_SEHAT = 'https://images2.imgbox.com/f8/ca/GwuLQxLZ_o.jpg';
+        const LA_PRO = 'https://images2.imgbox.com/f8/ca/GwuLQxLZ_o.jpg';
         const Ari_Lasso = 'https://i.scdn.co/image/ab6761610000e5eb4e1ed336c3ff93a95fa44e14';
         const Muhamad_Handoyo = 'https://live.staticflickr.com/65535/54597757641_3359192a02.jpg';
         const Andmesh = 'https://i1.sndcdn.com/artworks-000644192974-fr8aja-t500x500.jpg';
@@ -146,7 +146,7 @@ function Page() {
             else if (artist == 'Ajeng') {var urlCoverArt = Ajeng;}
             else if (artist == 'Agnes Monica') {var urlCoverArt = Agnes_Monica;}
             else if (artist == 'Anji') {var urlCoverArt = Anji;}
-            else if (artist == 'SOLUSI SEHAT') {var urlCoverArt = SOLUSI_SEHAT;}
+            else if (artist == 'LA PRO') {var urlCoverArt = LA_PRO;}
             else if (artist == 'Ari Lasso') {var urlCoverArt = Ari_Lasso;}
             else if (artist == 'MUHAMAD HANDOYO') {var urlCoverArt = Muhamad_Handoyo;}
             else if (artist == 'Andmesh') {var urlCoverArt = Andmesh;}
