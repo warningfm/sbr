@@ -89,7 +89,7 @@ function Page() {
         const ADZANMAGHRIB = 'https://i.scdn.co/image/ab67616d0000b2736e9736d44d30472e61dd7118';
         const OpeningRadio = 'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/opening-soon-design-template-945288577483c2347c1f05bb83a2b7a2_screen.jpg?ts=1575470323';
         const LAGUPENUTUPRADIO = 'https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/ec/3f/64/ec3f643b-0ffd-eb61-9ccf-c8d2c027594f/3ad3589a-548e-4b13-970c-83a2937c7d5c.jpg/1200x1200bb.jpg';
-        const Citizen = 'https://thumbs2.imgbox.com/b1/29/LxXCnvNr_t.jpg';
+        const BIO7 = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcN6afCaXgfDnbaHRsxtEYYsLR3B2Sxe8KZeXXFH0Qk1eJSFF_Yu-b8HyovPS_K5oIWc7PMfA3o0nogOgx4a37JDyg_I1piMn-VrlgZkHKdZG7m2iETe5V8lX15FejJMW82ZuNCnmd3gg/s320/Bi07-bioactiva+series+-+toko+almishbah3.JPG';
         const JELAJAHDESA = 'https://thumbs2.imgbox.com/7e/dc/vOGdajpd_t.jpg';
         const WISATABUDAYA = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj76_ShbSLBp_jr_Og-mX5b-010-7qIIEPM3ZZeN84zyldmyMX2NS-yLfMPZLa46N7tBFwX8EKlwbUe-9wqU6U_0FO2jV54YFdV0AEvhW0r8jAa5YAE-5TCHgS-uB2HUVHHj0MN9P8xhg5jHAFY-3tMvD_u1BvHdUScYgev4ZcBSCrepzs_75lcKn4dAOdN/s1600/G8Qnr1y.jpg';
         const SHOLAWAT = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIpqY48J4bs8uxDW02DXU_87iAkbYboTn0pxJQ5p0wyoQKt4YYr7BnqczK2UhAcbHkeUyM2m-5IHhUD_jTvWts-7HPMgRU1s4ZJsstS-Kq74NNqHRgsdxkrUoEGhttVFPkCjjR_O766XT_r1WaC2kcUgwkAP9zWSXLzvocqlz-0Y8NU3ViCiC-T9Jfb5bz/s1600/Wf3SDEt.png';
@@ -137,7 +137,7 @@ function Page() {
             else if (artist == 'ADZAN MAGHRIB') {var urlCoverArt = ADZANMAGHRIB;}
             else if (artist == 'Opening Radio') {var urlCoverArt = OpeningRadio;}
             else if (artist == 'LAGU PENUTUP RADIO') {var urlCoverArt = LAGUPENUTUPRADIO;}
-            else if (artist == 'Citizen Journalism') {var urlCoverArt = Citizen;}
+            else if (artist == 'BIO7') {var urlCoverArt = BIO7;}
             else if (artist == 'JELAJAH DESA') {var urlCoverArt = JELAJAHDESA;}
             else if (artist == 'WISATA BUDAYA') {var urlCoverArt = WISATABUDAYA;}
             else if (artist == 'SHOLAWAT THIBBIL QULUB') {var urlCoverArt = SHOLAWAT;}
