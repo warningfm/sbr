@@ -78,6 +78,7 @@ function Page() {
   // Artist Covers - Below 
   this.refreshCover = function (song = '', artist) {
         const HAZAFIT = 'https://id-test-11.slatic.net/p/b3a25c4966350da984bc04983b527d6e.jpg';
+        const Commercial_Break = "https://live.staticflickr.com/65535/53805955404_bc1c26a8c8_z.jpg";
         const Raisa = 'https://i.scdn.co/image/ab67616d0000b2738bd2fdd47fa594b1362682a9';
         const TS = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoYOoThYoQy_1IHIOkOWhSv7ZumvhWQVgCCUAa1PtItmRqi7LpFLBOlRVnmMJvjw2_m91utqlbmj_XRJzqxROWHC5fJqk664UghWdsbX_sqI4vMFue3Ii68m4cfh5kQNAWFM6v4YGjSyP1TdH1SySeBmMx9Ewaeyyu5qhTcon4wKP0VFY9KxHvJrEScFED/s1600/P8KFcGD.png';
         const Erina = 'https://i.ytimg.com/vi/1NTsu5MhbpA/sddefault.jpg';
@@ -126,6 +127,7 @@ function Page() {
         const IKLAN = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbk__nyxv_204MHCwkda_oaNO_zbnuo9z_4zjVQB_G3JGI6CO5b5e-WGNPLevN4LBLL_aB8798Dven-sdT1XvqCsgVvxsvx_EcmQnltTbGr3QGB1dk0p06Iow26p0ahVfwKSMzgut4vAXyUDgRzHvU0UWynQfeOrDamYh4-AGbCXBrX80o4gnKvzgQnXM/s1600/2uhHSB5.png';
         
         if (artist == 'HAZAFIT') {var urlCoverArt = HAZAFIT;}
+            else if (artist == 'Commercial Break') {var urlCoverArt = Commercial_Break;}
             else if (artist == 'Raisa') {var urlCoverArt = Raisa;}
             else if (artist == 'TS') {var urlCoverArt = TS;}
             else if (artist == 'Erina') {var urlCoverArt = Erina;}
