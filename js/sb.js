@@ -98,7 +98,7 @@ function Page() {
         const Ajeng = 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e5/47/cf/e547cfe3-f707-7175-9123-b640435f6a8c/cover.jpg/1200x1200bb.jpg';
         const Agnes_Monica = 'https://i.scdn.co/image/ab6761610000e5eb09160e5ffdc256e65713a8a9';
         const Anji = 'https://upload.wikimedia.org/wikipedia/commons/f/f6/ANJI.jpg';
-        const LA_PRO = 'https://images2.imgbox.com/f8/ca/GwuLQxLZ_o.jpg';
+        const LA_PRO = 'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/MTA-102109066/no_brand_lapro-la-pro-obat-tetes-mata-minus-plus-silinder-glaukoma-katarak_full00_1AA43EBE-4FAF-40C2-BE67-779FB2565C04.jpg';
         const Ari_Lasso = 'https://i.scdn.co/image/ab6761610000e5eb4e1ed336c3ff93a95fa44e14';
         const Muhamad_Handoyo = 'https://live.staticflickr.com/65535/54597757641_3359192a02.jpg';
         const Andmesh = 'https://i1.sndcdn.com/artworks-000644192974-fr8aja-t500x500.jpg';
