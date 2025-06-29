@@ -22,7 +22,7 @@ const url = 'https://api.zeno.fm/mounts/metadata/subscribe/skk0a2d6sd0uv';
 const API_KEY = "18fe07917957c289983464588aabddfb";
 
 // Change DEFAULT COVER
-const DEFAULT_COVER_ART = 'https://i5.walmartimages.com/seo/No-Cover-Hardcover-9798218379629_10be0e40-8f1b-454b-9d84-9a1561d46991.471bd3586253cec93a17f535de28a5d0.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF';
+const DEFAULT_COVER_ART = 'https://thumbs2.imgbox.com/05/da/S1jvtQ2w_t.jpeg';
 
 // Variable to control history display: true = display / false = hides
 let showHistory = true; 
