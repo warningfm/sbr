@@ -25,7 +25,7 @@ const API_KEY = "18fe07917957c289983464588aabddfb";
 const DEFAULT_COVER_ART = 'https://thumbs2.imgbox.com/05/da/S1jvtQ2w_t.jpeg';
 
 // Variable to control history display: true = display / false = hides
-let showHistory = true; 
+let showHistory = false; 
 
 window.onload = function () {
     var page = new Page;
