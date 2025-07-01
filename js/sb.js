@@ -25,7 +25,7 @@ const API_KEY = "18fe07917957c289983464588aabddfb";
 const DEFAULT_COVER_ART = 'https://cdn4.mbahnunungonline.net/img/wDI5YzU.png';
 
 // Variable to control history display: true = display / false = hides
-let showHistory = false; 
+let showHistory = true; 
 
 window.onload = function () {
     var page = new Page;
