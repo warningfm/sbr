@@ -6,7 +6,7 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/css/style.css',
-  '/js/sb.js',
+  'https://cdn1.mbahnunungonline.net/js/lunaradio-cors.js',
   '/img/cover.png',
   // Add other resources you want to cache here
 ];
@@ -37,3 +37,4 @@ self.addEventListener('fetch', function(event) {
     )
   );
 });
+
